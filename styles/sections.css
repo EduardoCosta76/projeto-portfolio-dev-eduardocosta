@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-area: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+img {
+    margin-top: 80px;
+    border-radius: 50px;
+}
+
+
+
+header img {
+    height: 112px;
+    width: 112px;
+    margin-bottom: 52px;
+}
+
+header h2 {
+
+    font: var(--font-family-3);
+    color: var(--gray-400);
+
+}
+
+header h1 {
+    font: var(--h1);
+    color: var(--gray-600);
+}
+
+.description {
+    font: var(--font-family-3);
+    color: var(--gray-400);
+}
+
+h1, h2, h3 {
+    font: inherit;
+}
+
+.icons img{
+    height: 40px;
+    width: 92px;
+}

@@ -22,12 +22,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="container">
-        <div class="header">
+    <intro id="container">
+        <header class="header">
             <img class="profile" src="assets/profile/profile.png" alt="Eduardo Costa">
-            <h2>Hello World! Meu nome é Eduardo Costa e sou</h2>
+            <h2>Hello World! Meu nome é <span style="color: var(--red);">Eduardo Costa</span> e sou</h2>
             <h1>Desenvolvedor Fullstack</h1>
-            <p class="description">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da <br>minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+            <p class="description">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da <br>minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p> 
+        </header>   
+        
+            
             <div class="icons">
                 <img src="assets/icons/GitHub.svg" alt="GitHub">
                 <img src="assets/icons/HTML.svg" alt="HTML">
@@ -36,7 +39,25 @@
                 <img src="assets/icons/React.svg" alt="React">
                 <img src="assets/icons/Node.js.svg" alt="Node.js">
             </div>
+            <a class="arrow" href="#"><img src="assets/icons/CaretDoubleDown.png" alt=""></a>
+    </intro>
+    <main id="trabalhos">
+        <div class="conteudo">
+            <h3>Meu trabalho</h3>
+            <p>Veja os projetos em destaque</p>
         </div>
-    </header>
+        <div class="grid">
+            <div class="grid-1">
+                <span><img src="assets/thumb-img/Thumbnail_Project-01.png" alt="" class="desc"><h4>Travelgram</h4><p class="desc-1">Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p></span>
+                <span><img src="assets/thumb-img/Thumbnail_Project-02.png" alt="" class="desc"><h4>Tech News</h4><p class="desc-1">Homepage de um portal de notícias sobre a área de tecnologia</p></span>
+                <span><img src="assets/thumb-img/Thumbnail_Project-03.png" alt="" class="desc"><h4>Página de receita</h4><p class="desc-1">Página com o passo a passo de uma receita para cupcakes</p></span>
+                <span><img src="assets/thumb-img/Thumbnail_Project-04.png" alt="" class="desc"><h4>Zingen</h4><p class="desc-1">Landing Page completa e responsiva de um aplicativo de Karaokê</p></span>
+                <span><img src="assets/thumb-img/Thumbnail_Project-05.png" alt="" class="desc"><h4>Refund</h4><p class="desc-1">Um sistema para pedido e acompanhamento de reembolso</p></span>
+                <span><img src="assets/thumb-img/Thumbnail_Project-06.png" alt="" class="desc"><h4>Página de turismo</h4><p class="desc-1">Página com as principais informações para quem quer viajar para Busan</p></span>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
+            
+        

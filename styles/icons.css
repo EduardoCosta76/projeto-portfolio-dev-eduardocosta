@@ -1,0 +1,32 @@
+
+
+.icons {
+    width: 754px;;
+    display: flex;
+    height: 40px;
+    
+    justify-content: space-evenly;
+    gap: 16px;
+    
+}
+
+.icons img{
+    flex-grow: 1;
+    border: 1px solid var(--gray-300);
+    height: 40px;
+    width: 40px;
+    
+    padding: 8px 16px 8px 16px;
+    border-radius: 20px;
+    background-color: var(--gray-300);
+    
+}
+
+
+.arrow img{
+    height: 32px;
+    width: 32px;
+    display: grid;
+    justify-items: start;
+    
+}

@@ -1,6 +1,7 @@
-header {
+body {
     background-image: url(../assets/bg-images/Background_Intro.png);
     height: 750px;
+    object-fit: cover;
     
 }
 

@@ -1,0 +1,26 @@
+#container {
+    display: grid;
+    grid-area: column;
+    justify-items: center;
+    }
+
+header {
+    width: 680px;
+    height: 327px;
+    display: grid;
+    justify-items: center;
+    
+}
+
+.profile {
+    margin-top: 80px;
+    border-radius: 50px;
+    
+}
+
+.description {
+    font: var(--font-family-3);
+    color: var(--gray-400);
+}
+
+

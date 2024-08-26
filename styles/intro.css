@@ -1,0 +1,30 @@
+intro {
+    height: 750px;
+    max-width: auto;
+}
+
+intro img {
+    height: 112px;
+    width: 112px;
+    margin-bottom: 52px;
+    margin-top: 80px;
+}
+
+
+
+intro h2 {
+
+    font: var(--font-family-3);
+    color: var(--gray-400);
+
+}
+
+intro h1 {
+    font: var(--h1);
+    color: var(--gray-600);
+    margin-top: 8px;
+}
+
+intro p {
+    margin-top: 20px;
+}

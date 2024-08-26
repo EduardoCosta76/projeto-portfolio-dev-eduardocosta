@@ -1,5 +1,5 @@
 main {
-    height: 917px;
+    height: 750px;
     background-color: var(--gray-200);
 }
 
@@ -7,9 +7,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
-
 }
 
 
@@ -83,5 +80,52 @@ h4 {
     margin-top: 5px;
     
 }
+
+.conteudo-1 {
+    display: grid;
+    grid-area: row;
+    justify-items: center;
+}
+
+.conteudo-1 h3 {
+    margin-top: 88px;
+}
+
+.bg-color {
+    background-color: #0D0E11;
+}
+
+.servicos {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 56px;
+    gap: 24px;
+
+    
+}
+
+.servicos span {
+    height: 155px;
+    width: 280px;
+    padding: 20px;
+}
+
+span h4 {
+    font: var(--text-sm);
+    color: var(--gray-600);
+}
+
+span p {
+    font: var(--text-sm);
+    color: var(--gray-500);
+}
+
+span{
+    border: 1px solid var(--gray-300);
+    border-radius: 12px;
+}
+
+
 
 

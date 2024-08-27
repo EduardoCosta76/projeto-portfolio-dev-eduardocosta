@@ -28,7 +28,7 @@ main p {
     
     width: 1040px;
     height: 584px;
-    /* background-color: aqua; */
+    
 }
 
 .grid img {
@@ -45,7 +45,7 @@ main p {
     grid-template-columns: 330px 330px 330px;
     gap: 24px;
     
-    /* background-color: var(--gray-300); */
+    
 
     width: 330px;
     height: 280px;
@@ -125,6 +125,42 @@ span{
     border: 1px solid var(--gray-300);
     border-radius: 12px;
 }
+
+
+.contato {
+    background-image: url(../assets/bg-images/Background_Contacts.png);
+    
+}
+
+.contato h4 {
+    margin-top: 88px;
+    font: var(--subtitle-md);
+    color: var(--purple);
+}
+
+.links{
+    background-color: aqua;
+    display: grid;
+    
+    justify-items: center;
+    margin-top: 48px;
+    width: 400px;
+    height: 320px;
+}
+
+/* .ordenar {
+    display: flex;
+    flex-direction: column;
+} */
+    
+a {
+    display: ;
+    text-decoration: none;
+    border: 1px solid orange;
+    
+}
+    
+
 
 
 

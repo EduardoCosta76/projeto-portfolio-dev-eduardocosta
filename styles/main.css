@@ -93,6 +93,7 @@ h4 {
 
 .bg-color {
     background-color: #0D0E11;
+    height: 480px;
 }
 
 .servicos {
@@ -139,26 +140,50 @@ span{
 }
 
 .links{
-    background-color: aqua;
+    
     display: grid;
     
     justify-items: center;
     margin-top: 48px;
     width: 400px;
-    height: 320px;
+    height: 320px; 
+
 }
 
-/* .ordenar {
-    display: flex;
-    flex-direction: column;
-} */
-    
-a {
-    display: ;
+
+
+.links button {
+   background-color: var(--gray-300); 
+   border-radius: 8px;
+   height: 68px;
+   width: 400px;
+   
+}
+
+.links button:hover {
+    border-color: var(--blue);
+}
+
+
+
+
+
+.links button a{
     text-decoration: none;
-    border: 1px solid orange;
+    color: var(--gray-500);
     
 }
+
+.arrow {
+    padding-left: 250px;
+    
+}
+
+
+
+
+    
+
     
 
 

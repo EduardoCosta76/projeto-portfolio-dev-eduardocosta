@@ -44,14 +44,25 @@ main p {
     display: grid;
     grid-template-columns: 330px 330px 330px;
     gap: 24px;
-    
-    
-
     width: 330px;
     height: 280px;
     border-radius: 12px;
+
+    h4 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    p {
+        padding-left: 10px;
+    }
 }
 
+.grid span {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+}
 
 
 .conteudo {
@@ -147,26 +158,26 @@ span{
     margin-top: 48px;
     width: 400px;
     height: 320px; 
-
+    align-items: center;
 }
 
 
 
 .links button {
-   background-color: var(--gray-300); 
-   border-radius: 8px;
-   height: 68px;
-   width: 400px;
-   
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-300); 
+    border-radius: 8px;
+    height: 68px;
+    width: 400px;
+    line-height: 0;
+    
+    justify-content: space-evenly;
 }
 
 .links button:hover {
     border-color: var(--blue);
 }
-
-
-
-
 
 .links button a{
     text-decoration: none;
@@ -174,10 +185,6 @@ span{
     
 }
 
-.arrow {
-    padding-left: 250px;
-    
-}
 
 
 
